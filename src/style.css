@@ -38,7 +38,6 @@ body{
 }
 .perfil{
     width: 32px;
-    margin: 18px;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -62,7 +61,6 @@ body{
     width: 40px;
     height: 40px;
     margin-right: 18px;
-    margin-left: 14px;
 }
 .perfil-container:hover{
     background-color: lightgrey;
@@ -88,6 +86,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.barra-buscadora:hover{
+    box-shadow: 0px 0px 5px 2px rgb(223, 223, 223);
+    border-radius: 50px;
 }
 .lupa{
     height: 18px;
@@ -144,7 +146,10 @@ body{
     border: 1px solid #f8f9fa;
 }
 .botones input:hover{
-    border: 1px solid lightgrey;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 .separador{
     height: 100px;
