@@ -37,14 +37,15 @@
                 <div class="lupa-container">
                     <img class="lupa" src="./pics/lupa.png" alt="lupa">
                 </div>
-                <input class="input-buscador" type="text">
+                <label for="buscador"></label>
+                <input id="buscador" class="input-buscador" type="text">
                 <a href="/" class="microfono-container">
                     <img class="microfono" title="Busqueda por voz" src="./pics/microphone.png" alt="microfono">
                 </a>
             </section>
             <section class="botones">
-                <input type="submit" value="Buscar con Google">
-                <input type="submit" value="I'm Feeling Lucky">
+                <button id="boton" type="button">Buscar con Google</button>
+                <button type="button">I'm Feeling Lucky</button>
             </section>
         </form>
     </main>
@@ -76,5 +77,6 @@
                 </li>
             </ul>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -134,7 +134,7 @@ body{
 .input-buscador:focus{
    outline: none; 
 }
-.botones input{
+.botones button{
     border: none;
     border-radius: 4px;
     background-color: #f8f9fa;
@@ -145,7 +145,7 @@ body{
     font-size: 1.4rem;
     border: 1px solid #f8f9fa;
 }
-.botones input:hover{
+.botones button:hover{
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
